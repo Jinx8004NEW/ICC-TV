@@ -1,39 +1,72 @@
 import requests
+import json
 import time
 import os
 import argparse
-from datetime import datetime, timedelta
+import re
+from urllib.parse import urlparse, parse_qs
+
+def parse_duration_to_seconds(duration_str):
+    if not duration_str:
+        return None
+    try:
+        pattern = re.compile(r'^PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+(?:\.\d+)?)S)?$', re.IGNORECASE)
+        match = pattern.match(duration_str)
+        if not match:
+            return None
+        hours = float(match.group(1)) if match.group(1) else 0
+        minutes = float(match.group(2)) if match.group(2) else 0
+        seconds = float(match.group(3)) if match.group(3) else 0
+        return hours * 3600 + minutes * 60 + seconds
+    except Exception:
+        return None
+
+def extract_extra_field(tags, field_name):
+    if not tags:
+        return None
+    for tag in tags:
+        extra = tag.get('extraData', {})
+        if field_name in extra:
+            return extra.get(field_name)
+    return None
 
 def get_with_retries(url, retries=5, initial_sleep=5, timeout=10):
     sleep_time = initial_sleep
-    for attempt in range(retries):
+    for attempt in range(1, retries + 1):
         try:
             response = requests.get(url, timeout=timeout)
             response.raise_for_status()
             return response
-        except Exception:
-            if attempt == retries - 1: return None
+        except requests.exceptions.RequestException as e:
+            if attempt == retries:
+                return None
             time.sleep(sleep_time)
             sleep_time *= 2
 
-def fetch_and_filter_videos(base_url, target_video_status_list=None, target_workflow=None, max_skip=None):
+def fetch_and_filter_videos(base_url, language_locale="en-gb", target_video_status_list=None, target_workflow=None, limit_per_request=100, max_skip=None):
     all_filtered_videos = []
     skip = 0
     while True:
-        api_url = f"{base_url}/v2/content/en-gb/videos?$skip={skip}&$limit=100"
+        api_url = f"{base_url}/v2/content/{language_locale}/videos?$skip={skip}&$limit={limit_per_request}"
         response = get_with_retries(api_url)
-        if response is None: break
+        if response is None:
+            break
         data = response.json()
-        items = data.get("items", [])
-        if not items: break
-        for item in items:
-            fields = item.get("fields", {})
-            if (target_video_status_list is None or fields.get("videoStatus") in target_video_status_list) and \
-               (target_workflow is None or fields.get("workflow") == target_workflow):
-                all_filtered_videos.append(item)
-        skip += 100
-        if max_skip and skip >= max_skip: break
-        time.sleep(1)
+        items_on_page = data.get('items', [])
+        if not items_on_page:
+            break
+        for item in items_on_page:
+            fields = item.get('fields', {})
+            status = fields.get('videoStatus')
+            workflow = fields.get('workflow')
+            if fields.get('videoId'):
+                if ((target_video_status_list is None or status in target_video_status_list) and 
+                    (target_workflow is None or workflow == target_workflow)):
+                    all_filtered_videos.append(item)
+        skip += limit_per_request
+        if max_skip is not None and skip >= max_skip:
+            break
+        time.sleep(2)
     return all_filtered_videos
 
 if __name__ == "__main__":
@@ -42,44 +75,53 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     BASE_URL = "https://dapi.icc-cricket.com"
-    txt_path = "ICC_Events.txt"
-    
+    # Use a consistent filename for the GitHub repo
+    json_path = "ICC_Events.json"
+
     if args.OD:
-        target_status, max_skip_val, target_wf = ["OnDemand"], 400, None
+        target_status, max_skip_value, target_workflow = ["OnDemand"], 400, None
     else:
-        target_status, max_skip_val, target_wf = ["Scheduled", "Live"], 3000, "LIVE"
+        target_status, max_skip_value, target_workflow = ["Scheduled", "Live"], 3000, "LIVE"
 
-    videos = fetch_and_filter_videos(BASE_URL, target_status, target_wf, max_skip_val)
-
-    # 1. Load existing data safely
-    existing_events = {}
-    if os.path.exists(txt_path):
-        with open(txt_path, "r", encoding="utf-8") as f:
-            for line in f:
-                line = line.strip()
-                if "|" in line:
-                    event_id = line.split("|")[0].strip()
-                    existing_events[event_id] = line
-    else:
-        print(f"{txt_path} not found. A new file will be created.")
-
-    # 2. Add only NEW events
-    initial_count = len(existing_events)
+    videos = fetch_and_filter_videos(BASE_URL, target_video_status_list=target_status, target_workflow=target_workflow, max_skip=max_skip_value)
+    
+    output_data = []
     for item in videos:
-        fields = item.get("fields", {})
-        event_id = str(fields.get("videoId"))
-        if event_id not in existing_events:
-            title = item.get("title", "No Title").replace(":", "")
-            scheduled = fields.get("scheduledStartTime")
-            status = fields.get("videoStatus")
-            existing_events[event_id] = f"{event_id} | {title} | {scheduled} | {status}"
+        fields = item.get('fields', {})
+        tags = item.get('tags', [])
+        untrimmed_seconds = parse_duration_to_seconds(fields.get('untrimmedDuration'))
 
-    # 3. Save if new data was found OR if file doesn't exist yet
-    if len(existing_events) > initial_count or not os.path.exists(txt_path):
-        final_list = list(existing_events.values())
-        with open(txt_path, "w", encoding="utf-8") as f:
-            for line in final_list:
-                f.write(line + "\n")
-        print(f"Success: File updated. Total events: {len(existing_events)}")
+        if args.OD and (untrimmed_seconds is None or untrimmed_seconds < 600):
+            continue
+
+        output_data.append({
+            "Title": item.get('title', 'No Title').replace(":", ""),
+            "ID": fields.get('videoId'),
+            "Status": fields.get('videoStatus'),
+            "StartTime": fields.get('scheduledStartTime'),
+            "untrimmedDuration": untrimmed_seconds,
+            "workflow": fields.get('workflow'),
+            "seriesName": extract_extra_field(tags, 'seriesName'),
+            "teamA": extract_extra_field(tags, 'teamA'),
+            "teamB": extract_extra_field(tags, 'teamB')
+        })
+
+    # Persistence Logic: Load existing, merge unique, and save
+    existing_data = []
+    if os.path.exists(json_path):
+        try:
+            with open(json_path, "r", encoding="utf-8") as f:
+                existing_data = json.load(f)
+        except:
+            existing_data = []
+
+    existing_ids = {str(entry.get("ID")) for entry in existing_data if entry.get("ID")}
+    new_entries = [e for e in output_data if str(e.get("ID")) not in existing_ids]
+    
+    if new_entries:
+        merged_data = existing_data + new_entries
+        with open(json_path, "w", encoding="utf-8") as f:
+            json.dump(merged_data, f, ensure_ascii=False, indent=4)
+        print(f"Added {len(new_entries)} new entries.")
     else:
-        print("No new events found. File remains unchanged.")
+        print("No new unique events found.")
