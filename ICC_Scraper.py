@@ -37,7 +37,7 @@ def get_with_retries(url, retries=5, initial_sleep=5, timeout=10):
             response = requests.get(url, timeout=timeout)
             response.raise_for_status()
             return response
-        except requests.exceptions.RequestException as e:
+        except requests.exceptions.RequestException:
             if attempt == retries:
                 return None
             time.sleep(sleep_time)
@@ -75,7 +75,6 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     BASE_URL = "https://dapi.icc-cricket.com"
-    # Use a consistent filename for the GitHub repo
     json_path = "ICC_Events.json"
 
     if args.OD:
@@ -101,12 +100,16 @@ if __name__ == "__main__":
             "StartTime": fields.get('scheduledStartTime'),
             "untrimmedDuration": untrimmed_seconds,
             "workflow": fields.get('workflow'),
+            "competitionType": extract_extra_field(tags, 'competitionType'),
             "seriesName": extract_extra_field(tags, 'seriesName'),
+            "seriesType": extract_extra_field(tags, 'seriesType'),
+            "matchType": extract_extra_field(tags, 'matchType'),
+            "matchNumber": extract_extra_field(tags, 'matchNumber'),
+            "stage": extract_extra_field(tags, 'stage'),
             "teamA": extract_extra_field(tags, 'teamA'),
             "teamB": extract_extra_field(tags, 'teamB')
         })
 
-    # Persistence Logic: Load existing, merge unique, and save
     existing_data = []
     if os.path.exists(json_path):
         try:
@@ -118,10 +121,19 @@ if __name__ == "__main__":
     existing_ids = {str(entry.get("ID")) for entry in existing_data if entry.get("ID")}
     new_entries = [e for e in output_data if str(e.get("ID")) not in existing_ids]
     
+    # Merge existing and new entries
+    merged_data = existing_data + new_entries
+    
+    # -----------------------------
+    # Sort by StartTime (ISO 8601)
+    # -----------------------------
+    merged_data.sort(key=lambda x: x.get('StartTime') or '')
+
     if new_entries:
-        merged_data = existing_data + new_entries
         with open(json_path, "w", encoding="utf-8") as f:
             json.dump(merged_data, f, ensure_ascii=False, indent=4)
-        print(f"Added {len(new_entries)} new entries.")
+        print(f"Added {len(new_entries)} new entries and sorted the list.")
     else:
-        print("No new unique events found.")
+        print("No new unique events found. Sorting only.")
+        with open(json_path, "w", encoding="utf-8") as f:
+            json.dump(merged_data, f, ensure_ascii=False, indent=4)
