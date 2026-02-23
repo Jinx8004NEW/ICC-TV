@@ -1,0 +1,34 @@
+name: ICC Scraper Auto-Update
+
+on:
+  schedule:
+    - cron: '0 */12 * * *'
+  workflow_dispatch:
+
+jobs:
+  run-scraper:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install Requests
+        run: pip install requests
+
+      - name: Execute Scraper
+        run: |
+          python ICC_Scraper.py
+          python ICC_Scraper.py -OD
+
+      - name: Commit Results
+        run: |
+          git config --global user.name "Jinx8004"
+          git config --global user.email "Jinx8004@users.noreply.github.com"
+          git add D:\ICC_Events.txt
+          git commit -m "Update Events: $(date)" || exit 0
+          git push
