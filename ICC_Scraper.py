@@ -22,6 +22,7 @@ def parse_duration_to_seconds(duration_str):
         return None
 
 def extract_extra_field(tags, field_name):
+    """Finds match details (competitionType, matchNumber, etc.) from tag metadata."""
     if not tags:
         return None
     for tag in tags:
@@ -110,6 +111,7 @@ if __name__ == "__main__":
             "teamB": extract_extra_field(tags, 'teamB')
         })
 
+    # Load existing data to merge
     existing_data = []
     if os.path.exists(json_path):
         try:
@@ -118,10 +120,9 @@ if __name__ == "__main__":
         except:
             existing_data = []
 
+    # Filter out duplicates and merge
     existing_ids = {str(entry.get("ID")) for entry in existing_data if entry.get("ID")}
     new_entries = [e for e in output_data if str(e.get("ID")) not in existing_ids]
-    
-    # Merge existing and new entries
     merged_data = existing_data + new_entries
     
     # -----------------------------
@@ -129,11 +130,8 @@ if __name__ == "__main__":
     # -----------------------------
     merged_data.sort(key=lambda x: x.get('StartTime') or '')
 
-    if new_entries:
-        with open(json_path, "w", encoding="utf-8") as f:
-            json.dump(merged_data, f, ensure_ascii=False, indent=4)
-        print(f"Added {len(new_entries)} new entries and sorted the list.")
-    else:
-        print("No new unique events found. Sorting only.")
-        with open(json_path, "w", encoding="utf-8") as f:
-            json.dump(merged_data, f, ensure_ascii=False, indent=4)
+    # Save to file
+    with open(json_path, "w", encoding="utf-8") as f:
+        json.dump(merged_data, f, ensure_ascii=False, indent=4)
+    
+    print(f"Added {len(new_entries)} new entries. Total entries: {len(merged_data)} (Sorted by date).")
