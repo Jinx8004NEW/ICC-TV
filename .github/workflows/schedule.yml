@@ -2,11 +2,11 @@ name: ICC Scraper Auto-Update
 
 on:
   schedule:
-    - cron: '0 */12 * * *'
-  workflow_dispatch:
+    - cron: '0 */12 * * *'   # Runs automatically every 12 hours
+  workflow_dispatch:        # Allows you to run it manually from the Actions tab
 
 permissions:
-  contents: write
+  contents: write           # Necessary to allow the bot to push changes to your repo
 
 jobs:
   run-scraper:
@@ -22,24 +22,31 @@ jobs:
           python-version: '3.9'
 
       - name: Install Dependencies
-        run: pip install requests
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
 
       - name: Run Scraper
         run: |
+          # Runs the script for both Live and OnDemand events
           python ICC_Scraper.py
           python ICC_Scraper.py -OD
 
-      - name: Commit and Push if Changed
+      - name: Commit and Push Changes
         run: |
           git config --global user.name "Jinx8004"
           git config --global user.email "Jinx8004@users.noreply.github.com"
           
-          # IMPORTANT: Use 'git add .' to find the file in the local folder
+          # Adds all updated files (ICC_Events.json or ICC_Events.txt)
           git add .
           
           if git diff --cached --quiet; then
-            echo "No changes to commit"
+            echo "No new events found to commit."
           else
             git commit -m "Auto-update ICC Events - $(date)"
+            
+            # This line fixes the 'rejected' error by grabbing remote updates first
+            git pull --rebase origin main
+            
             git push
           fi
