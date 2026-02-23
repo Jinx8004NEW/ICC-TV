@@ -2,8 +2,8 @@ name: ICC Scraper Auto-Update
 
 on:
   schedule:
-    - cron: '0 */12 * * *'   # Every 12 hours
-  workflow_dispatch:
+    - cron: '0 */12 * * *'   # Runs every 12 hours automatically
+  workflow_dispatch:        # Allows you to click "Run Workflow" manually
 
 permissions:
   contents: write
@@ -22,28 +22,24 @@ jobs:
           python-version: '3.9'
 
       - name: Install Dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install requests
+        run: pip install requests
 
       - name: Run Scraper
         run: |
           python ICC_Scraper.py
           python ICC_Scraper.py -OD
 
-      - name: Show Files (Debug)
-        run: ls -la
-
-      - name: Commit and Push Changes
+      - name: Commit and Push if Changed
         run: |
           git config --global user.name "Jinx8004"
           git config --global user.email "Jinx8004@users.noreply.github.com"
-
-          git add .
-
+          
+          git add ICC_Events.txt
+          
+          # This check ensures we only update GitHub if new lines were added
           if git diff --cached --quiet; then
-            echo "No changes to commit"
+            echo "No new changes detected in ICC_Events.txt. Skipping push."
           else
-            git commit -m "Auto update ICC Events - $(date)"
+            git commit -m "Auto-update: New ICC Events detected - $(date)"
             git push
           fi
