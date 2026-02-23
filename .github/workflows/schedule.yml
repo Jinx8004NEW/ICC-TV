@@ -34,7 +34,7 @@ jobs:
           git config --global user.name "Jinx8004"
           git config --global user.email "Jinx8004@users.noreply.github.com"
           
-          # Add all changes (this will catch the new .txt file if it's missing)
+          # IMPORTANT: Use 'git add .' to find the file in the local folder
           git add .
           
           if git diff --cached --quiet; then
