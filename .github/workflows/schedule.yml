@@ -2,8 +2,8 @@ name: ICC Scraper Auto-Update
 
 on:
   schedule:
-    - cron: '0 */12 * * *'
-  workflow_dispatch:
+    - cron: '0 */12 * * *'   # Runs every 12 hours
+  workflow_dispatch:        # Manual trigger
 
 permissions:
   contents: write
@@ -39,7 +39,7 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "Auto-update ICC Events - $(date)"
-            # Use rebase to prevent 'rejected' error by fetching latest work first
+            # Sync with remote before pushing
             git pull --rebase origin main
             git push
           fi
