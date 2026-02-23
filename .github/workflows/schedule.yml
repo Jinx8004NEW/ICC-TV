@@ -29,6 +29,6 @@ jobs:
         run: |
           git config --global user.name "Jinx8004"
           git config --global user.email "Jinx8004@users.noreply.github.com"
-          git add D:\ICC_Events.txt
+          git add ICC_Events.txt
           git commit -m "Update Events: $(date)" || exit 0
           git push
