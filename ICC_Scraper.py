@@ -44,7 +44,6 @@ if __name__ == "__main__":
     BASE_URL = "https://dapi.icc-cricket.com"
     txt_path = "ICC_Events.txt"
     
-    # Configuration based on flags
     if args.OD:
         target_status, max_skip_val, target_wf = ["OnDemand"], 400, None
     else:
@@ -52,7 +51,7 @@ if __name__ == "__main__":
 
     videos = fetch_and_filter_videos(BASE_URL, target_status, target_wf, max_skip_val)
 
-    # 1. Load existing data (Persistent Storage)
+    # 1. Load existing data safely
     existing_events = {}
     if os.path.exists(txt_path):
         with open(txt_path, "r", encoding="utf-8") as f:
@@ -61,6 +60,8 @@ if __name__ == "__main__":
                 if "|" in line:
                     event_id = line.split("|")[0].strip()
                     existing_events[event_id] = line
+    else:
+        print(f"{txt_path} not found. A new file will be created.")
 
     # 2. Add only NEW events
     initial_count = len(existing_events)
@@ -73,14 +74,12 @@ if __name__ == "__main__":
             status = fields.get("videoStatus")
             existing_events[event_id] = f"{event_id} | {title} | {scheduled} | {status}"
 
-    # 3. Save only if new data was found
-    if len(existing_events) > initial_count:
-        # Sort by date (optional, based on index 2 of the split)
+    # 3. Save if new data was found OR if file doesn't exist yet
+    if len(existing_events) > initial_count or not os.path.exists(txt_path):
         final_list = list(existing_events.values())
-        
         with open(txt_path, "w", encoding="utf-8") as f:
             for line in final_list:
                 f.write(line + "\n")
-        print(f"Success: Added {len(existing_events) - initial_count} new events.")
+        print(f"Success: File updated. Total events: {len(existing_events)}")
     else:
-        print("No new events found.")
+        print("No new events found. File remains unchanged.")
