@@ -48,6 +48,22 @@
         "teamB": "Pakistan"
     },
     {
+        "Title": "1st T20I Hong Kong, China v Kuwait",
+        "ID": "097c64a0-bad3-494f-92e7-f555a3a4fe9f",
+        "Status": "Scheduled",
+        "StartTime": "2026-02-25T05:15:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": "T20 International - m",
+        "seriesName": "Kuwait in Hong Kong, China, 4 T20I Series, 2026",
+        "seriesType": "Series",
+        "matchType": "T20",
+        "matchNumber": "1st T20I",
+        "stage": "Series",
+        "teamA": "Hong Kong, China",
+        "teamB": "Kuwait"
+    },
+    {
         "Title": "1st T20I New Zealand v Zimbabwe",
         "ID": "40a4fc08-66d0-4953-9477-44a788fd36ad",
         "Status": "Scheduled",
@@ -126,6 +142,22 @@
         "stage": "Series",
         "teamA": "West Indies",
         "teamB": "Sri Lanka"
+    },
+    {
+        "Title": "2nd T20I Hong Kong, China v Kuwait",
+        "ID": "9e92bb24-daee-428e-9c4b-3e4f9a61fec7",
+        "Status": "Scheduled",
+        "StartTime": "2026-02-26T05:15:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": "T20 International - m",
+        "seriesName": "Kuwait in Hong Kong, China, 4 T20I Series, 2026",
+        "seriesType": "Series",
+        "matchType": "T20",
+        "matchNumber": "2nd T20I",
+        "stage": "Series",
+        "teamA": "Hong Kong, China",
+        "teamB": "Kuwait"
     },
     {
         "Title": "MT20 West Indies v South Africa (HINDI)",
@@ -240,6 +272,22 @@
         "teamB": "New Zealand"
     },
     {
+        "Title": "3rd T20I Hong Kong, China v Kuwait",
+        "ID": "b3e3492f-12ff-4b2b-b79e-194dc97a5660",
+        "Status": "Scheduled",
+        "StartTime": "2026-02-28T05:15:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": "T20 International - m",
+        "seriesName": "Kuwait in Hong Kong, China, 4 T20I Series, 2026",
+        "seriesType": "Series",
+        "matchType": "T20",
+        "matchNumber": "3rd T20I",
+        "stage": "Series",
+        "teamA": "Hong Kong, China",
+        "teamB": "Kuwait"
+    },
+    {
         "Title": "MT20 Sri Lanka v Pakistan (URDU)",
         "ID": "bc09370b-7d91-47f9-8f23-e2c308da849b",
         "Status": "Scheduled",
@@ -318,6 +366,22 @@
         "stage": "Series",
         "teamA": "New Zealand",
         "teamB": "Zimbabwe"
+    },
+    {
+        "Title": "4th T20I Hong Kong, China v Kuwait",
+        "ID": "28847280-c332-4013-95ac-dec3f2d9a14f",
+        "Status": "Scheduled",
+        "StartTime": "2026-03-01T05:15:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": "T20 International - m",
+        "seriesName": "Kuwait in Hong Kong, China, 4 T20I Series, 2026",
+        "seriesType": "Series",
+        "matchType": "T20",
+        "matchNumber": "4th T20I",
+        "stage": "Series",
+        "teamA": "Hong Kong, China",
+        "teamB": "Kuwait"
     },
     {
         "Title": "MT20 Zimbabwe v South Africa (HINDI)",
