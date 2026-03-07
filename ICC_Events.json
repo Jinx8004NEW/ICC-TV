@@ -48,6 +48,22 @@
         "teamB": "England"
     },
     {
+        "Title": "BTS action from the high octane semi-final 1 clash | T20 World Cup 2026",
+        "ID": "2d244e4a-122d-4a7d-b85b-47156c6de0e6",
+        "Status": "OnDemand",
+        "StartTime": null,
+        "untrimmedDuration": 980.0,
+        "workflow": "VOD",
+        "competitionType": "T20 International - m",
+        "seriesName": "ICC Men's T20 World Cup, 2026",
+        "seriesType": "Tournament",
+        "matchType": "T20",
+        "matchNumber": "1st Semi-Final",
+        "stage": "Semi Final",
+        "teamA": "South Africa",
+        "teamB": "New Zealand"
+    },
+    {
         "Title": "MT20 Scotland v Italy (HINDI)",
         "ID": "e6f2b836-7099-42f9-9d56-caf682f265d1",
         "Status": "Scheduled",
