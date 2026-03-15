@@ -272,6 +272,22 @@
         "teamB": null
     },
     {
+        "Title": "Unseen BTS from the final showdown between India and New Zealand | T20WC 2026 ",
+        "ID": "df0b4ebf-1f81-42ce-bef6-50add5ae2ed7",
+        "Status": "OnDemand",
+        "StartTime": null,
+        "untrimmedDuration": 1332.0,
+        "workflow": "VOD",
+        "competitionType": "T20 International - m",
+        "seriesName": "ICC Men's T20 World Cup, 2026",
+        "seriesType": "Tournament",
+        "matchType": "T20",
+        "matchNumber": "Final",
+        "stage": "Final",
+        "teamA": "India",
+        "teamB": "New Zealand"
+    },
+    {
         "Title": "MT20 Scotland v Italy (HINDI)",
         "ID": "e6f2b836-7099-42f9-9d56-caf682f265d1",
         "Status": "Scheduled",
