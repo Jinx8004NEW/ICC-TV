@@ -2800,6 +2800,22 @@
         "teamB": "United Arab Emirates"
     },
     {
+        "Title": "2nd T20 Namibia A v Uganda",
+        "ID": "019ca66d-72ee-4b1f-8445-d40e741ffd58",
+        "Status": "Live",
+        "StartTime": "2026-03-19T12:00:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": null,
+        "seriesName": null,
+        "seriesType": null,
+        "matchType": null,
+        "matchNumber": null,
+        "stage": null,
+        "teamA": null,
+        "teamB": null
+    },
+    {
         "Title": "1st T20I West Indies v Australia",
         "ID": "6e02ccb8-35b6-429b-8496-93b6b48480ab",
         "Status": "Scheduled",
