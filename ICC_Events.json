@@ -2896,6 +2896,22 @@
         "teamB": "Australia"
     },
     {
+        "Title": "1st ONE-DAY Namibia v Uganda (2nd Innings)",
+        "ID": "1a709117-5bfb-4b1d-938a-7d124d24baf3",
+        "Status": "Live",
+        "StartTime": "2026-03-23T11:45:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": null,
+        "seriesName": null,
+        "seriesType": null,
+        "matchType": null,
+        "matchNumber": null,
+        "stage": null,
+        "teamA": null,
+        "teamB": null
+    },
+    {
         "Title": "3rd T20I West Indies v Australia",
         "ID": "196c35e3-cb65-41fc-951d-825c7f920336",
         "Status": "Scheduled",
@@ -2960,6 +2976,22 @@
         "teamB": "Saint Helena"
     },
     {
+        "Title": "2nd ONE-DAY Namibia A v Uganda (1st Innings)",
+        "ID": "635d2564-1ea6-4022-b7ca-e8bd558c0993",
+        "Status": "Scheduled",
+        "StartTime": "2026-03-25T07:30:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": null,
+        "seriesName": null,
+        "seriesType": null,
+        "matchType": null,
+        "matchNumber": null,
+        "stage": null,
+        "teamA": null,
+        "teamB": null
+    },
+    {
         "Title": "Eswatini v Tanzania",
         "ID": "15d91ea7-d885-41c2-8c09-9c5b8e3b327c",
         "Status": "Scheduled",
@@ -2990,6 +3022,22 @@
         "stage": "League",
         "teamA": "Saint Helena",
         "teamB": "Seychelles"
+    },
+    {
+        "Title": "2nd ONE-DAY Namibia A v Uganda (2nd Innings)",
+        "ID": "e7038e9d-9e2f-4d14-8228-1b18f04ab842",
+        "Status": "Scheduled",
+        "StartTime": "2026-03-25T11:30:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": null,
+        "seriesName": null,
+        "seriesType": null,
+        "matchType": null,
+        "matchNumber": null,
+        "stage": null,
+        "teamA": null,
+        "teamB": null
     },
     {
         "Title": "Malawi v Ghana",
