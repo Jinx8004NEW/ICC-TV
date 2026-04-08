@@ -3456,6 +3456,22 @@
         "teamB": "Oman"
     },
     {
+        "Title": "Oman v Scotland (1st Innings)",
+        "ID": "0282b38c-728a-4e8c-8841-6c176506f942",
+        "Status": "Live",
+        "StartTime": "2026-04-08T12:00:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": "ODI International - m",
+        "seriesName": "ICC CWC League 2, 2023-27",
+        "seriesType": "Tournament",
+        "matchType": "ODI",
+        "matchNumber": "Match 101",
+        "stage": "League",
+        "teamA": "Scotland",
+        "teamB": "Oman"
+    },
+    {
         "Title": "3rd T20I Indonesia v Sweden",
         "ID": "5b3c8103-7139-4938-b1b3-01e2ba0612e5",
         "Status": "Scheduled",
