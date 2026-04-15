@@ -3632,6 +3632,38 @@
         "teamB": "Sweden"
     },
     {
+        "Title": "1st T20I Namibia v Scotland",
+        "ID": "800a1984-a440-492f-9462-bb1911bc9b08",
+        "Status": "Live",
+        "StartTime": "2026-04-15T12:00:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": null,
+        "seriesName": null,
+        "seriesType": null,
+        "matchType": null,
+        "matchNumber": null,
+        "stage": null,
+        "teamA": null,
+        "teamB": null
+    },
+    {
+        "Title": "2nd T20I Namibia v Scotland",
+        "ID": "28f5a132-8419-48cf-8c30-bec41e465f6d",
+        "Status": "Scheduled",
+        "StartTime": "2026-04-17T12:00:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": null,
+        "seriesName": null,
+        "seriesType": null,
+        "matchType": null,
+        "matchNumber": null,
+        "stage": null,
+        "teamA": null,
+        "teamB": null
+    },
+    {
         "Title": "Rwanda v Italy",
         "ID": "2edb25ef-6f5b-4ebe-9905-4c14ed9c98ab",
         "Status": "Scheduled",
@@ -3662,6 +3694,22 @@
         "stage": "League",
         "teamA": "Nepal",
         "teamB": "USA"
+    },
+    {
+        "Title": "3rd T20I Namibia v Scotland",
+        "ID": "80a85e59-d2a2-437a-9c52-3272fbc551ea",
+        "Status": "Scheduled",
+        "StartTime": "2026-04-18T12:00:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": null,
+        "seriesName": null,
+        "seriesType": null,
+        "matchType": null,
+        "matchNumber": null,
+        "stage": null,
+        "teamA": null,
+        "teamB": null
     },
     {
         "Title": "Rwanda v Vanuatu",
