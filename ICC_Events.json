@@ -3840,6 +3840,22 @@
         "teamB": "USA"
     },
     {
+        "Title": "Nepal v United Arab Emirates (2nd Innings)",
+        "ID": "45ddd0b7-4a89-4024-a564-eb32cdefa5ba",
+        "Status": "Scheduled",
+        "StartTime": "2026-04-25T07:45:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": "ODI International - m",
+        "seriesName": "ICC CWC League 2, 2023-27",
+        "seriesType": "Tournament",
+        "matchType": "ODI",
+        "matchNumber": "Match 98",
+        "stage": "League",
+        "teamA": "Nepal",
+        "teamB": "United Arab Emirates"
+    },
+    {
         "Title": "Vanuatu v Rwanda",
         "ID": "c731a943-d491-4834-bdde-f4d098c0cfc3",
         "Status": "Scheduled",
@@ -3886,6 +3902,22 @@
         "stage": "League",
         "teamA": "Rwanda",
         "teamB": "Italy"
+    },
+    {
+        "Title": "United Arab Emirates v Oman (2nd Innings)",
+        "ID": "e08edb8f-ebb6-4680-aff3-81cdb1ac0d26",
+        "Status": "Scheduled",
+        "StartTime": "2026-04-27T07:45:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": "ODI International - m",
+        "seriesName": "ICC CWC League 2, 2023-27",
+        "seriesType": "Tournament",
+        "matchType": "ODI",
+        "matchNumber": "Match 99",
+        "stage": "League",
+        "teamA": "United Arab Emirates",
+        "teamB": "Oman"
     },
     {
         "Title": "Vanuatu v USA",
@@ -3936,6 +3968,22 @@
         "teamB": "Vanuatu"
     },
     {
+        "Title": "Nepal v Oman (2nd Innings)",
+        "ID": "37306d3f-9acb-4f1f-9edc-14a20ff2bb70",
+        "Status": "Scheduled",
+        "StartTime": "2026-04-29T07:45:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": "ODI International - m",
+        "seriesName": "ICC CWC League 2, 2023-27",
+        "seriesType": "Tournament",
+        "matchType": "ODI",
+        "matchNumber": "Match 100",
+        "stage": "League",
+        "teamA": "Nepal",
+        "teamB": "Oman"
+    },
+    {
         "Title": "USA v Italy",
         "ID": "d958eb1e-3262-470c-9467-8bcfd53e4bdf",
         "Status": "Scheduled",
@@ -3984,6 +4032,22 @@
         "teamB": "USA"
     },
     {
+        "Title": "United Arab Emirates v Nepal (2nd Innings)",
+        "ID": "f49cafcd-8abe-40a2-9759-4594165cc732",
+        "Status": "Scheduled",
+        "StartTime": "2026-05-01T07:45:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": "ODI International - m",
+        "seriesName": "ICC CWC League 2, 2023-27",
+        "seriesType": "Tournament",
+        "matchType": "ODI",
+        "matchNumber": "Match 97",
+        "stage": "League",
+        "teamA": "Nepal",
+        "teamB": "United Arab Emirates"
+    },
+    {
         "Title": "Nepal v Italy",
         "ID": "db1118d5-4662-4134-80db-c9f5a749731c",
         "Status": "Scheduled",
@@ -3998,5 +4062,53 @@
         "stage": "League",
         "teamA": "Italy",
         "teamB": "Nepal"
+    },
+    {
+        "Title": "Oman v United Arab Emirates (2nd Innings)",
+        "ID": "5e0d2c5f-1930-4789-98e9-da6f6cb3fc14",
+        "Status": "Scheduled",
+        "StartTime": "2026-05-03T07:45:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": "ODI International - m",
+        "seriesName": "ICC CWC League 2, 2023-27",
+        "seriesType": "Tournament",
+        "matchType": "ODI",
+        "matchNumber": "Match 102",
+        "stage": "League",
+        "teamA": "United Arab Emirates",
+        "teamB": "Oman"
+    },
+    {
+        "Title": "Oman v Nepal (1st Innings)",
+        "ID": "df050451-54a1-449f-836e-2d72de477345",
+        "Status": "Scheduled",
+        "StartTime": "2026-05-05T03:45:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": "ODI International - m",
+        "seriesName": "ICC CWC League 2, 2023-27",
+        "seriesType": "Tournament",
+        "matchType": "ODI",
+        "matchNumber": "Match 103",
+        "stage": "League",
+        "teamA": "Nepal",
+        "teamB": "Oman"
+    },
+    {
+        "Title": "Oman v Nepal (2nd Innings)",
+        "ID": "7dca3ec0-365b-459e-94e7-192a640b748e",
+        "Status": "Scheduled",
+        "StartTime": "2026-05-05T07:45:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": "ODI International - m",
+        "seriesName": "ICC CWC League 2, 2023-27",
+        "seriesType": "Tournament",
+        "matchType": "ODI",
+        "matchNumber": "Match 103",
+        "stage": "League",
+        "teamA": "Nepal",
+        "teamB": "Oman"
     }
 ]
