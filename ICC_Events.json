@@ -4592,6 +4592,22 @@
         "teamB": "Indonesia"
     },
     {
+        "Title": "Fiji v Vanuatu",
+        "ID": "c39dfd54-59b8-4783-b284-c61df6db0970",
+        "Status": "Scheduled",
+        "StartTime": "2026-05-08T00:30:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": "T20 International - m",
+        "seriesName": "ICC Men's T20 World Cup East Asia Pacific Qualifier, 2026",
+        "seriesType": "Tournament",
+        "matchType": "T20",
+        "matchNumber": "Match 2",
+        "stage": "Group",
+        "teamA": "Fiji",
+        "teamB": "Vanuatu"
+    },
+    {
         "Title": "Cook Islands v South Korea",
         "ID": "d79d0051-970b-4289-907e-6f411a4a835b",
         "Status": "Scheduled",
