@@ -4670,5 +4670,37 @@
         "stage": "Group",
         "teamA": "Samoa",
         "teamB": "Philippines"
+    },
+    {
+        "Title": "Japan v Fiji",
+        "ID": "89927e62-bebc-4596-990f-3099ccce5db3",
+        "Status": "Scheduled",
+        "StartTime": "2026-05-10T00:30:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": "T20 International - m",
+        "seriesName": "ICC Men's T20 World Cup East Asia Pacific Qualifier, 2026",
+        "seriesType": "Tournament",
+        "matchType": "T20",
+        "matchNumber": "Match 8",
+        "stage": "Group",
+        "teamA": "Japan",
+        "teamB": "Fiji"
+    },
+    {
+        "Title": "Papua New Guinea v Cook Islands",
+        "ID": "5c3fd8fc-0835-4f1c-ac59-2f908cada046",
+        "Status": "Scheduled",
+        "StartTime": "2026-05-10T05:00:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": "T20 International - m",
+        "seriesName": "ICC Men's T20 World Cup East Asia Pacific Qualifier, 2026",
+        "seriesType": "Tournament",
+        "matchType": "T20",
+        "matchNumber": "Match 9",
+        "stage": "Group",
+        "teamA": "Papua New Guinea",
+        "teamB": "Cook Islands"
     }
 ]
