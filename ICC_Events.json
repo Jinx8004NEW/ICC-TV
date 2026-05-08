@@ -4656,6 +4656,22 @@
         "teamB": "Samoa"
     },
     {
+        "Title": "Vanuatu v Japan (JAPANESE)",
+        "ID": "fd96c3a9-454f-4e8a-b7c0-29ff774ba814",
+        "Status": "Scheduled",
+        "StartTime": "2026-05-09T00:30:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": "T20 International - m",
+        "seriesName": "ICC Men's T20 World Cup East Asia Pacific Qualifier, 2026",
+        "seriesType": "Tournament",
+        "matchType": "T20",
+        "matchNumber": "Match 5",
+        "stage": "Group",
+        "teamA": "Japan",
+        "teamB": "Vanuatu"
+    },
+    {
         "Title": "South Korea v Papua New Guinea",
         "ID": "50de123c-f134-4cf3-9132-fea51d0b48d1",
         "Status": "Scheduled",
@@ -4690,6 +4706,22 @@
     {
         "Title": "Japan v Fiji",
         "ID": "89927e62-bebc-4596-990f-3099ccce5db3",
+        "Status": "Scheduled",
+        "StartTime": "2026-05-10T00:30:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": "T20 International - m",
+        "seriesName": "ICC Men's T20 World Cup East Asia Pacific Qualifier, 2026",
+        "seriesType": "Tournament",
+        "matchType": "T20",
+        "matchNumber": "Match 8",
+        "stage": "Group",
+        "teamA": "Japan",
+        "teamB": "Fiji"
+    },
+    {
+        "Title": "Japan v Fiji (JAPANESE)",
+        "ID": "1306fcf1-17e0-497b-90be-f56a9b208d57",
         "Status": "Scheduled",
         "StartTime": "2026-05-10T00:30:00Z",
         "untrimmedDuration": null,
