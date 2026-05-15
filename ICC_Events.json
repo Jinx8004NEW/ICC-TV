@@ -304,6 +304,22 @@
         "teamB": null
     },
     {
+        "Title": "Scotland v USA | Match Highlights | ICC Men's CWC League 2",
+        "ID": "aae53eee-95c6-4647-9d6b-f4c1ea289511",
+        "Status": "OnDemand",
+        "StartTime": null,
+        "untrimmedDuration": 1192.0,
+        "workflow": "VOD",
+        "competitionType": "ODI International - m",
+        "seriesName": "ICC CWC League 2, 2023-27",
+        "seriesType": "Tournament",
+        "matchType": "ODI",
+        "matchNumber": "Match 105",
+        "stage": "League",
+        "teamA": "Scotland",
+        "teamB": "USA"
+    },
+    {
         "Title": "MT20 Scotland v Italy (HINDI)",
         "ID": "e6f2b836-7099-42f9-9d56-caf682f265d1",
         "Status": "Scheduled",
