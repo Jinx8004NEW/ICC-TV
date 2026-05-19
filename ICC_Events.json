@@ -320,6 +320,38 @@
         "teamB": "USA"
     },
     {
+        "Title": "Austria v Malta | Match Highlights | ICC Men's T20 World Cup Europe Sub Regional Qualifier A",
+        "ID": "1ffa0833-513e-4520-b884-bb94a2d96412",
+        "Status": "OnDemand",
+        "StartTime": null,
+        "untrimmedDuration": 626.0,
+        "workflow": "VOD",
+        "competitionType": "T20 International - m",
+        "seriesName": "ICC Men's T20 World Cup Europe Sub Regional Qualifier A, 2026",
+        "seriesType": "Tournament",
+        "matchType": "T20",
+        "matchNumber": "Match 4",
+        "stage": "Group",
+        "teamA": "Austria",
+        "teamB": "Malta"
+    },
+    {
+        "Title": "Croatia v France | Match Highlights | ICC Men's T20 World Cup Europe Sub Regional Qualifier A",
+        "ID": "f08370fc-198d-4fdf-8afa-dd58578c9a3d",
+        "Status": "OnDemand",
+        "StartTime": null,
+        "untrimmedDuration": 658.0,
+        "workflow": "VOD",
+        "competitionType": "T20 International - m",
+        "seriesName": "ICC Men's T20 World Cup Europe Sub Regional Qualifier A, 2026",
+        "seriesType": "Tournament",
+        "matchType": "T20",
+        "matchNumber": "Match 6",
+        "stage": "Group",
+        "teamA": "Croatia",
+        "teamB": "France"
+    },
+    {
         "Title": "MT20 Scotland v Italy (HINDI)",
         "ID": "e6f2b836-7099-42f9-9d56-caf682f265d1",
         "Status": "Scheduled",
