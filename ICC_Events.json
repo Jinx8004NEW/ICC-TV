@@ -6208,6 +6208,22 @@
         "teamB": "Kenya"
     },
     {
+        "Title": "1st T20I England v India",
+        "ID": "d573cc17-fd60-43a1-b855-a1b12a4bbeca",
+        "Status": "Scheduled",
+        "StartTime": "2026-05-28T17:30:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": "T20 International - w",
+        "seriesName": "India Women in England, 3 T20I Series, 2026",
+        "seriesType": "Series",
+        "matchType": "T20",
+        "matchNumber": "1st T20I",
+        "stage": "Series",
+        "teamA": "England",
+        "teamB": "India"
+    },
+    {
         "Title": "Cameroon v Mali",
         "ID": "7a5efb63-35c1-491d-8a9e-2cb9c374b8bc",
         "Status": "Scheduled",
@@ -6302,5 +6318,37 @@
         "stage": "League",
         "teamA": "Botswana",
         "teamB": "Rwanda"
+    },
+    {
+        "Title": "2nd T20I England v India",
+        "ID": "83b02850-05a0-4dac-ba15-7257d5ad19f4",
+        "Status": "Scheduled",
+        "StartTime": "2026-05-30T13:30:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": "T20 International - w",
+        "seriesName": "India Women in England, 3 T20I Series, 2026",
+        "seriesType": "Series",
+        "matchType": "T20",
+        "matchNumber": "2nd T20I",
+        "stage": "Series",
+        "teamA": "England",
+        "teamB": "India"
+    },
+    {
+        "Title": "3rd T20I England v India",
+        "ID": "651bd9f2-3c52-43ac-859f-ebd0bb441b12",
+        "Status": "Scheduled",
+        "StartTime": "2026-06-02T17:30:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": "T20 International - w",
+        "seriesName": "India Women in England, 3 T20I Series, 2026",
+        "seriesType": "Series",
+        "matchType": "T20",
+        "matchNumber": "3rd T20I",
+        "stage": "Series",
+        "teamA": "England",
+        "teamB": "India"
     }
 ]
