@@ -6208,6 +6208,22 @@
         "teamB": "Kenya"
     },
     {
+        "Title": "1st T20I Ireland v West Indies",
+        "ID": "b082799c-d25f-4e95-9748-5ea64109e805",
+        "Status": "Scheduled",
+        "StartTime": "2026-05-28T15:00:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": "T20 International - w",
+        "seriesName": "Women's T20I Tri-Series in Ireland, 2026",
+        "seriesType": "Tournament",
+        "matchType": "T20",
+        "matchNumber": "Match 1",
+        "stage": "Series",
+        "teamA": "Ireland",
+        "teamB": "West Indies"
+    },
+    {
         "Title": "1st T20I England v India",
         "ID": "d573cc17-fd60-43a1-b855-a1b12a4bbeca",
         "Status": "Scheduled",
@@ -6270,6 +6286,22 @@
         "stage": "League",
         "teamA": "Botswana",
         "teamB": "Kenya"
+    },
+    {
+        "Title": "2nd T20I Pakistan v West Indies",
+        "ID": "51cc92d5-0a24-466c-b890-dcf93fbe4e17",
+        "Status": "Scheduled",
+        "StartTime": "2026-05-29T15:00:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": "T20 International - w",
+        "seriesName": "Women's T20I Tri-Series in Ireland, 2026",
+        "seriesType": "Tournament",
+        "matchType": "T20",
+        "matchNumber": "Match 2",
+        "stage": "Series",
+        "teamA": "Pakistan",
+        "teamB": "West Indies"
     },
     {
         "Title": "Cote D'Ivoire v Kenya",
@@ -6336,6 +6368,38 @@
         "teamB": "India"
     },
     {
+        "Title": "3rd T20I Ireland v Pakistan",
+        "ID": "cc99cc65-ed73-48e9-a95e-51a1d2ffa486",
+        "Status": "Scheduled",
+        "StartTime": "2026-05-31T15:00:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": "T20 International - w",
+        "seriesName": "Women's T20I Tri-Series in Ireland, 2026",
+        "seriesType": "Tournament",
+        "matchType": "T20",
+        "matchNumber": "Match 3",
+        "stage": "Series",
+        "teamA": "Ireland",
+        "teamB": "Pakistan"
+    },
+    {
+        "Title": "4th T20I Ireland v West Indies",
+        "ID": "0df2d619-f8ec-4333-8157-f920286f3451",
+        "Status": "Scheduled",
+        "StartTime": "2026-06-01T15:00:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": "T20 International - w",
+        "seriesName": "Women's T20I Tri-Series in Ireland, 2026",
+        "seriesType": "Tournament",
+        "matchType": "T20",
+        "matchNumber": "Match 4",
+        "stage": "Series",
+        "teamA": "Ireland",
+        "teamB": "West Indies"
+    },
+    {
         "Title": "3rd T20I England v India",
         "ID": "651bd9f2-3c52-43ac-859f-ebd0bb441b12",
         "Status": "Scheduled",
@@ -6350,5 +6414,37 @@
         "stage": "Series",
         "teamA": "England",
         "teamB": "India"
+    },
+    {
+        "Title": "5th T20I Pakistan v West Indies",
+        "ID": "41ca0642-ebcd-465b-b6fb-6192103418bf",
+        "Status": "Scheduled",
+        "StartTime": "2026-06-03T15:00:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": "T20 International - w",
+        "seriesName": "Women's T20I Tri-Series in Ireland, 2026",
+        "seriesType": "Tournament",
+        "matchType": "T20",
+        "matchNumber": "Match 5",
+        "stage": "Series",
+        "teamA": "Pakistan",
+        "teamB": "West Indies"
+    },
+    {
+        "Title": "6th T20I Ireland v Pakistan",
+        "ID": "143a376b-168f-4f86-a557-dcb2adc6fc83",
+        "Status": "Scheduled",
+        "StartTime": "2026-06-04T15:00:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": "T20 International - w",
+        "seriesName": "Women's T20I Tri-Series in Ireland, 2026",
+        "seriesType": "Tournament",
+        "matchType": "T20",
+        "matchNumber": "Match 6",
+        "stage": "Series",
+        "teamA": "Ireland",
+        "teamB": "Pakistan"
     }
 ]
