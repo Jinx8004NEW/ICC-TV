@@ -6576,6 +6576,38 @@
         "teamB": "Canada"
     },
     {
+        "Title": "WT20 England v Sri Lanka (HINDI)",
+        "ID": "3ee8d9ee-a834-4aea-abdf-0a160d6e7d14",
+        "Status": "Scheduled",
+        "StartTime": "2026-06-12T17:00:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": "T20 International - w",
+        "seriesName": "ICC Women's T20 World Cup, 2026",
+        "seriesType": "Tournament",
+        "matchType": "T20",
+        "matchNumber": "Match 1",
+        "stage": "Group",
+        "teamA": "England",
+        "teamB": "Sri Lanka"
+    },
+    {
+        "Title": "WT20 England v Sri Lanka",
+        "ID": "6ca8739b-66b3-4bc6-bd4f-f17c15818706",
+        "Status": "Scheduled",
+        "StartTime": "2026-06-12T17:00:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": "T20 International - w",
+        "seriesName": "ICC Women's T20 World Cup, 2026",
+        "seriesType": "Tournament",
+        "matchType": "T20",
+        "matchNumber": "Match 1",
+        "stage": "Group",
+        "teamA": "England",
+        "teamB": "Sri Lanka"
+    },
+    {
         "Title": "USA v Canada (2nd Innings)",
         "ID": "2648abc6-c17d-4e80-866f-088aae2d0c7e",
         "Status": "Scheduled",
