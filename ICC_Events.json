@@ -6592,6 +6592,22 @@
         "teamB": "USA"
     },
     {
+        "Title": "WT20 Captains' Carnival Q&A Session",
+        "ID": "1bd07d3d-790f-4204-8864-ac45c454995f",
+        "Status": "Live",
+        "StartTime": "2026-06-07T13:30:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": "T20 International - w",
+        "seriesName": null,
+        "seriesType": null,
+        "matchType": null,
+        "matchNumber": null,
+        "stage": null,
+        "teamA": null,
+        "teamB": null
+    },
+    {
         "Title": "WT20 Warm-Ups West Indies v India",
         "ID": "41074ead-50f3-49fe-ab0f-76e9c23c7de4",
         "Status": "Scheduled",
