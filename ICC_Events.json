@@ -6576,6 +6576,22 @@
         "teamB": "USA"
     },
     {
+        "Title": "REPLAY Canada v USA (1st Innings)/2",
+        "ID": "5cc58cf6-4318-4f4c-b983-ad68a86a8b48",
+        "Status": "OnDemand",
+        "StartTime": "2026-06-06T20:20:00Z",
+        "untrimmedDuration": 1772.16,
+        "workflow": "LIVE",
+        "competitionType": "ODI International - m",
+        "seriesName": "ICC CWC League 2, 2023-27",
+        "seriesType": "Tournament",
+        "matchType": "ODI",
+        "matchNumber": "Match 110",
+        "stage": "League",
+        "teamA": "Canada",
+        "teamB": "USA"
+    },
+    {
         "Title": "WT20 Warm-Ups West Indies v India",
         "ID": "41074ead-50f3-49fe-ab0f-76e9c23c7de4",
         "Status": "Scheduled",
