@@ -7134,5 +7134,37 @@
         "stage": "League",
         "teamA": "Netherlands",
         "teamB": "Canada"
+    },
+    {
+        "Title": "WT20 Australia v Bangladesh (BENGALI)",
+        "ID": "1da2222b-66b5-43fe-9092-aa3144c19b29",
+        "Status": "Scheduled",
+        "StartTime": "2026-06-17T09:30:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": "T20 International - w",
+        "seriesName": "ICC Women's T20 World Cup, 2026",
+        "seriesType": "Tournament",
+        "matchType": "T20",
+        "matchNumber": "Match 9",
+        "stage": "Group",
+        "teamA": "Australia",
+        "teamB": "Bangladesh"
+    },
+    {
+        "Title": "WT20 Australia v Bangladesh",
+        "ID": "92a0258b-9ad8-4d3c-b1c2-fb21e5397011",
+        "Status": "Scheduled",
+        "StartTime": "2026-06-17T09:30:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": "T20 International - w",
+        "seriesName": "ICC Women's T20 World Cup, 2026",
+        "seriesType": "Tournament",
+        "matchType": "T20",
+        "matchNumber": "Match 9",
+        "stage": "Group",
+        "teamA": "Australia",
+        "teamB": "Bangladesh"
     }
 ]
