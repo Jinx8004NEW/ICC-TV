@@ -7168,6 +7168,22 @@
         "teamB": "Pakistan"
     },
     {
+        "Title": "WT20 India v Pakistan (BENGALI)",
+        "ID": "afb1c2ae-cff7-4153-b5ee-29731180fb71",
+        "Status": "Scheduled",
+        "StartTime": "2026-06-14T13:30:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": "T20 International - w",
+        "seriesName": "ICC Women's T20 World Cup, 2026",
+        "seriesType": "Tournament",
+        "matchType": "T20",
+        "matchNumber": "Match 6",
+        "stage": "Group",
+        "teamA": "India",
+        "teamB": "Pakistan"
+    },
+    {
         "Title": "Netherlands v USA (1st Innings)",
         "ID": "064e3392-1926-4d18-9bee-cb1a9bf7efc7",
         "Status": "Scheduled",
