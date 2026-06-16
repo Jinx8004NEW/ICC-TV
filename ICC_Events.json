@@ -7408,6 +7408,22 @@
         "teamB": "Pakistan"
     },
     {
+        "Title": "1st T20I Nigeria v Hong Kong, China",
+        "ID": "bf731a64-d6f1-4fde-a308-5ff3ae9882a3",
+        "Status": "Scheduled",
+        "StartTime": "2026-06-18T12:00:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": "T20 International - m",
+        "seriesName": "T20I Tri-Series in Namibia, 2026",
+        "seriesType": "Tournament",
+        "matchType": "T20",
+        "matchNumber": "Match 1",
+        "stage": "Series",
+        "teamA": "Hong Kong, China",
+        "teamB": "Nigeria"
+    },
+    {
         "Title": "WT20 West Indies v Scotland",
         "ID": "2375c35f-c891-4ff6-a178-f3dcefd426b0",
         "Status": "Scheduled",
@@ -7422,6 +7438,22 @@
         "stage": "Group",
         "teamA": "West Indies",
         "teamB": "Scotland"
+    },
+    {
+        "Title": "2nd T20I Namibia v Hong Kong, China",
+        "ID": "08497a51-3afd-4702-a01e-534f179cba4c",
+        "Status": "Scheduled",
+        "StartTime": "2026-06-19T12:00:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": "T20 International - m",
+        "seriesName": "T20I Tri-Series in Namibia, 2026",
+        "seriesType": "Tournament",
+        "matchType": "T20",
+        "matchNumber": "Match 2",
+        "stage": "Series",
+        "teamA": "Namibia",
+        "teamB": "Hong Kong, China"
     },
     {
         "Title": "WT20 New Zealand v Ireland",
@@ -7470,6 +7502,22 @@
         "stage": "Group",
         "teamA": "Australia",
         "teamB": "Netherlands"
+    },
+    {
+        "Title": "3rd T20I Namibia v Nigeria",
+        "ID": "d611c955-368d-4209-9d59-309676a99066",
+        "Status": "Scheduled",
+        "StartTime": "2026-06-20T12:00:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": "T20 International - m",
+        "seriesName": "T20I Tri-Series in Namibia, 2026",
+        "seriesType": "Tournament",
+        "matchType": "T20",
+        "matchNumber": "Match 3",
+        "stage": "Series",
+        "teamA": "Namibia",
+        "teamB": "Nigeria"
     },
     {
         "Title": "WT20 Pakistan v Bangladesh (URDU)",
@@ -7552,6 +7600,22 @@
         "teamB": "Sri Lanka"
     },
     {
+        "Title": "4th T20I Hong Kong, China v Nigeria",
+        "ID": "6b7e549a-cf61-4f01-93a3-cbe920968823",
+        "Status": "Scheduled",
+        "StartTime": "2026-06-21T12:00:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": "T20 International - m",
+        "seriesName": "T20I Tri-Series in Namibia, 2026",
+        "seriesType": "Tournament",
+        "matchType": "T20",
+        "matchNumber": "Match 4",
+        "stage": "Series",
+        "teamA": "Hong Kong, China",
+        "teamB": "Nigeria"
+    },
+    {
         "Title": "WT20 South Africa v India",
         "ID": "486d73e7-26d4-45cb-a5ae-d4c7f346ce60",
         "Status": "Scheduled",
@@ -7600,6 +7664,22 @@
         "teamB": "India"
     },
     {
+        "Title": "5th T20I Hong Kong, China v Namibia",
+        "ID": "619f25fc-c014-4fa4-8cd3-21e7333abcaa",
+        "Status": "Scheduled",
+        "StartTime": "2026-06-22T12:00:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": "T20 International - m",
+        "seriesName": "T20I Tri-Series in Namibia, 2026",
+        "seriesType": "Tournament",
+        "matchType": "T20",
+        "matchNumber": "Match 5",
+        "stage": "Series",
+        "teamA": "Namibia",
+        "teamB": "Hong Kong, China"
+    },
+    {
         "Title": "WT20 New Zealand v Scotland",
         "ID": "3696b898-baa7-4a01-87b4-95e049100e74",
         "Status": "Scheduled",
@@ -7614,6 +7694,22 @@
         "stage": "Group",
         "teamA": "New Zealand",
         "teamB": "Scotland"
+    },
+    {
+        "Title": "6th T20I Nigeria v Namibia",
+        "ID": "c2051649-4516-4ba2-a8a7-5066f0dd365a",
+        "Status": "Scheduled",
+        "StartTime": "2026-06-23T12:00:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": "T20 International - m",
+        "seriesName": "T20I Tri-Series in Namibia, 2026",
+        "seriesType": "Tournament",
+        "matchType": "T20",
+        "matchNumber": "Match 6",
+        "stage": "Series",
+        "teamA": "Namibia",
+        "teamB": "Nigeria"
     },
     {
         "Title": "WT20 Sri Lanka v Ireland",
