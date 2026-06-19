@@ -7664,6 +7664,38 @@
         "teamB": "India"
     },
     {
+        "Title": "Bahamas v Belize",
+        "ID": "0f476613-d80f-4f1d-a220-e80ed5900025",
+        "Status": "Scheduled",
+        "StartTime": "2026-06-21T13:30:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": "T20 International - m",
+        "seriesName": "ICC Men's T20 World Cup Americas Sub-Regional Qualifier A, 2026",
+        "seriesType": "Tournament",
+        "matchType": "T20",
+        "matchNumber": "Match 1",
+        "stage": "League",
+        "teamA": "Bahamas",
+        "teamB": "Belize"
+    },
+    {
+        "Title": "Bermuda v Brazil",
+        "ID": "da8f9e47-c174-4dbf-a63c-3b3516689878",
+        "Status": "Scheduled",
+        "StartTime": "2026-06-21T18:00:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": "T20 International - m",
+        "seriesName": "ICC Men's T20 World Cup Americas Sub-Regional Qualifier A, 2026",
+        "seriesType": "Tournament",
+        "matchType": "T20",
+        "matchNumber": "Match 2",
+        "stage": "League",
+        "teamA": "Bermuda",
+        "teamB": "Brazil"
+    },
+    {
         "Title": "5th T20I Hong Kong, China v Namibia",
         "ID": "619f25fc-c014-4fa4-8cd3-21e7333abcaa",
         "Status": "Scheduled",
@@ -7678,6 +7710,38 @@
         "stage": "Series",
         "teamA": "Namibia",
         "teamB": "Hong Kong, China"
+    },
+    {
+        "Title": "Bermuda v Belize",
+        "ID": "e393687b-6fd3-42f5-a61f-c8e14f4460e8",
+        "Status": "Scheduled",
+        "StartTime": "2026-06-22T13:30:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": "T20 International - m",
+        "seriesName": "ICC Men's T20 World Cup Americas Sub-Regional Qualifier A, 2026",
+        "seriesType": "Tournament",
+        "matchType": "T20",
+        "matchNumber": "Match 3",
+        "stage": "League",
+        "teamA": "Bermuda",
+        "teamB": "Belize"
+    },
+    {
+        "Title": "Brazil v Panama",
+        "ID": "9643f13a-291c-415a-847a-6b3195a1f932",
+        "Status": "Scheduled",
+        "StartTime": "2026-06-22T18:00:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": "T20 International - m",
+        "seriesName": "ICC Men's T20 World Cup Americas Sub-Regional Qualifier A, 2026",
+        "seriesType": "Tournament",
+        "matchType": "T20",
+        "matchNumber": "Match 4",
+        "stage": "League",
+        "teamA": "Brazil",
+        "teamB": "Panama"
     },
     {
         "Title": "WT20 New Zealand v Scotland",
@@ -7760,6 +7824,22 @@
         "teamB": "Pakistan"
     },
     {
+        "Title": "Panama v Bahamas",
+        "ID": "8d4f0284-0efa-4734-8861-6340a468bc6b",
+        "Status": "Scheduled",
+        "StartTime": "2026-06-24T13:30:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": "T20 International - m",
+        "seriesName": "ICC Men's T20 World Cup Americas Sub-Regional Qualifier A, 2026",
+        "seriesType": "Tournament",
+        "matchType": "T20",
+        "matchNumber": "Match 5",
+        "stage": "League",
+        "teamA": "Panama",
+        "teamB": "Bahamas"
+    },
+    {
         "Title": "WT20 England v West Indies",
         "ID": "e9a9094b-6163-4d4a-b5b1-9768624daa48",
         "Status": "Scheduled",
@@ -7774,6 +7854,22 @@
         "stage": "Group",
         "teamA": "England",
         "teamB": "West Indies"
+    },
+    {
+        "Title": "Brazil v Belize",
+        "ID": "16ac8b10-75d7-4cad-affe-7c2bf0e7e41c",
+        "Status": "Scheduled",
+        "StartTime": "2026-06-24T18:00:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": "T20 International - m",
+        "seriesName": "ICC Men's T20 World Cup Americas Sub-Regional Qualifier A, 2026",
+        "seriesType": "Tournament",
+        "matchType": "T20",
+        "matchNumber": "Match 6",
+        "stage": "League",
+        "teamA": "Belize",
+        "teamB": "Brazil"
     },
     {
         "Title": "WT20 India v Bangladesh",
@@ -7824,6 +7920,22 @@
         "teamB": "Bangladesh"
     },
     {
+        "Title": "Bermuda v Panama",
+        "ID": "8120d08d-0f51-4db9-ad1a-059b1c0f0ca6",
+        "Status": "Scheduled",
+        "StartTime": "2026-06-25T13:30:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": "T20 International - m",
+        "seriesName": "ICC Men's T20 World Cup Americas Sub-Regional Qualifier A, 2026",
+        "seriesType": "Tournament",
+        "matchType": "T20",
+        "matchNumber": "Match 7",
+        "stage": "League",
+        "teamA": "Bermuda",
+        "teamB": "Panama"
+    },
+    {
         "Title": "WT20 South Africa v Netherlands",
         "ID": "2064bf5e-d3eb-464b-94d9-70d7e0656ed1",
         "Status": "Scheduled",
@@ -7854,6 +7966,22 @@
         "stage": "Group",
         "teamA": "South Africa",
         "teamB": "Netherlands"
+    },
+    {
+        "Title": "Brazil v Bahamas",
+        "ID": "ad598df2-ae6c-4dba-aed0-2c5c3bcb38b6",
+        "Status": "Scheduled",
+        "StartTime": "2026-06-25T18:00:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": "T20 International - m",
+        "seriesName": "ICC Men's T20 World Cup Americas Sub-Regional Qualifier A, 2026",
+        "seriesType": "Tournament",
+        "matchType": "T20",
+        "matchNumber": "Match 8",
+        "stage": "League",
+        "teamA": "Brazil",
+        "teamB": "Bahamas"
     },
     {
         "Title": "WT20 Sri Lanka v Scotland",
@@ -7936,6 +8064,22 @@
         "teamB": "Ireland"
     },
     {
+        "Title": "Panama v Belize",
+        "ID": "5da0786d-697d-48da-b38b-ee28be916791",
+        "Status": "Scheduled",
+        "StartTime": "2026-06-27T13:30:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": "T20 International - m",
+        "seriesName": "ICC Men's T20 World Cup Americas Sub-Regional Qualifier A, 2026",
+        "seriesType": "Tournament",
+        "matchType": "T20",
+        "matchNumber": "Match 9",
+        "stage": "League",
+        "teamA": "Panama",
+        "teamB": "Belize"
+    },
+    {
         "Title": "WT20 England v New Zealand",
         "ID": "d4a086c7-6d05-46b0-96f2-5b207c0fab72",
         "Status": "Scheduled",
@@ -7950,6 +8094,22 @@
         "stage": "Group",
         "teamA": "England",
         "teamB": "New Zealand"
+    },
+    {
+        "Title": "Bahamas v Bermuda",
+        "ID": "1390d981-dd76-49c0-9a7b-506a6c246577",
+        "Status": "Scheduled",
+        "StartTime": "2026-06-27T18:00:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": "T20 International - m",
+        "seriesName": "ICC Men's T20 World Cup Americas Sub-Regional Qualifier A, 2026",
+        "seriesType": "Tournament",
+        "matchType": "T20",
+        "matchNumber": "Match 10",
+        "stage": "League",
+        "teamA": "Bermuda",
+        "teamB": "Bahamas"
     },
     {
         "Title": "WT20 South Africa v Bangladesh",
