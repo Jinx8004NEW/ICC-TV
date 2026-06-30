@@ -8288,6 +8288,22 @@
         "teamB": "T.B.C."
     },
     {
+        "Title": "WT20 Semi-Final 1 Australia v West Indies (BENGALI)",
+        "ID": "55d03080-6c4a-44b5-9b61-79ef42c167a5",
+        "Status": "Live",
+        "StartTime": "2026-06-30T13:00:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": "T20 International - w",
+        "seriesName": "ICC Women's T20 World Cup, 2026",
+        "seriesType": "Tournament",
+        "matchType": "T20",
+        "matchNumber": "1st Semi-Final",
+        "stage": "Semi Final",
+        "teamA": "T.B.C.",
+        "teamB": "T.B.C."
+    },
+    {
         "Title": "WT20 Semi-Final 2 England v South Africa (JAPANESE)",
         "ID": "3127b341-1764-4f35-894b-eeff4572fd97",
         "Status": "Scheduled",
@@ -8338,6 +8354,22 @@
     {
         "Title": "WT20 Semi-Final 2 England v South Africa",
         "ID": "7bc99cd9-2aa3-41ed-9f4e-e887aac35bdf",
+        "Status": "Scheduled",
+        "StartTime": "2026-07-02T17:00:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": "T20 International - w",
+        "seriesName": "ICC Women's T20 World Cup, 2026",
+        "seriesType": "Tournament",
+        "matchType": "T20",
+        "matchNumber": "2nd Semi-Final",
+        "stage": "Semi Final",
+        "teamA": "T.B.C.",
+        "teamB": "T.B.C."
+    },
+    {
+        "Title": "WT20 Semi-Final 2 England v South Africa (BENGALI)",
+        "ID": "68dc7268-758a-4676-846b-a3c4f4f65cb3",
         "Status": "Scheduled",
         "StartTime": "2026-07-02T17:00:00Z",
         "untrimmedDuration": null,
