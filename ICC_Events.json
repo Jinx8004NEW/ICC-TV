@@ -432,6 +432,22 @@
         "teamB": null
     },
     {
+        "Title": "England v South Africa | Extra Cover | Semi-Final 2 | Women's T20WC 2026",
+        "ID": "5f94b82d-6574-4b67-9c76-3dd8a0b6018a",
+        "Status": "OnDemand",
+        "StartTime": null,
+        "untrimmedDuration": 856.0,
+        "workflow": "VOD",
+        "competitionType": "T20 International - w",
+        "seriesName": "ICC Women's T20 World Cup, 2026",
+        "seriesType": "Tournament",
+        "matchType": "T20",
+        "matchNumber": "2nd Semi-Final",
+        "stage": "Semi Final",
+        "teamA": "T.B.C.",
+        "teamB": "T.B.C."
+    },
+    {
         "Title": "MT20 Scotland v Italy (HINDI)",
         "ID": "e6f2b836-7099-42f9-9d56-caf682f265d1",
         "Status": "Scheduled",
