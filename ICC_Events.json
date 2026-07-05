@@ -448,6 +448,22 @@
         "teamB": "T.B.C."
     },
     {
+        "Title": "Australia v West Indies | Extra Cover | Semi-Final 1 | Women's T20WC 2026",
+        "ID": "9cc4611a-5fca-4ac3-a4ca-974edd6436a9",
+        "Status": "OnDemand",
+        "StartTime": null,
+        "untrimmedDuration": 854.0,
+        "workflow": "VOD",
+        "competitionType": "T20 International - w",
+        "seriesName": "ICC Women's T20 World Cup, 2026",
+        "seriesType": "Tournament",
+        "matchType": "T20",
+        "matchNumber": "1st Semi-Final",
+        "stage": "Semi Final",
+        "teamA": "T.B.C.",
+        "teamB": "T.B.C."
+    },
+    {
         "Title": "MT20 Scotland v Italy (HINDI)",
         "ID": "e6f2b836-7099-42f9-9d56-caf682f265d1",
         "Status": "Scheduled",
