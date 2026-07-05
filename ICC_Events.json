@@ -8576,6 +8576,22 @@
         "teamB": "T.B.C."
     },
     {
+        "Title": "WT20 Closing Ceremony",
+        "ID": "a6aa9908-83a8-4e20-a3a8-7ee178ec1d8a",
+        "Status": "Live",
+        "StartTime": "2026-07-05T13:30:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": "T20 International - w",
+        "seriesName": null,
+        "seriesType": null,
+        "matchType": null,
+        "matchNumber": null,
+        "stage": null,
+        "teamA": null,
+        "teamB": null
+    },
+    {
         "Title": "One-Off Test, Day 1 England v India (1st Session)",
         "ID": "e3f099d5-d6c3-4b5f-b4fd-c3ee11133f4d",
         "Status": "Scheduled",
