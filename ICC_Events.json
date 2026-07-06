@@ -8592,6 +8592,22 @@
         "teamB": null
     },
     {
+        "Title": "REPLAY WT20 Final England v Australia",
+        "ID": "04d1c14f-2a1f-43f3-8ade-a4bbbbc58e68",
+        "Status": "OnDemand",
+        "StartTime": "2026-07-05T13:55:00Z",
+        "untrimmedDuration": 18476.16,
+        "workflow": "LIVE",
+        "competitionType": "T20 International - w",
+        "seriesName": "ICC Women's T20 World Cup, 2026",
+        "seriesType": "Tournament",
+        "matchType": "T20",
+        "matchNumber": "Final",
+        "stage": "Final",
+        "teamA": "T.B.C.",
+        "teamB": "T.B.C."
+    },
+    {
         "Title": "One-Off Test, Day 1 England v India (1st Session)",
         "ID": "e3f099d5-d6c3-4b5f-b4fd-c3ee11133f4d",
         "Status": "Scheduled",
