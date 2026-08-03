@@ -480,6 +480,22 @@
         "teamB": null
     },
     {
+        "Title": "CWC27 venues and brand unveiled in a star-studded ceremony",
+        "ID": "2526959d-39bd-47fd-b6d7-51b6d0f28ec0",
+        "Status": "OnDemand",
+        "StartTime": null,
+        "untrimmedDuration": 3300.0,
+        "workflow": "VOD",
+        "competitionType": "ODI International - m",
+        "seriesName": null,
+        "seriesType": null,
+        "matchType": null,
+        "matchNumber": null,
+        "stage": null,
+        "teamA": null,
+        "teamB": null
+    },
+    {
         "Title": "MT20 Scotland v Italy (HINDI)",
         "ID": "e6f2b836-7099-42f9-9d56-caf682f265d1",
         "Status": "Scheduled",
