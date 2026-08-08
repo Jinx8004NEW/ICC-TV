@@ -9408,6 +9408,22 @@
         "teamB": "Uganda"
     },
     {
+        "Title": "Tanzania v Uganda (1st Innings)",
+        "ID": "db657f83-267e-432f-aa66-97d1689b3d04",
+        "Status": "Live",
+        "StartTime": "2026-08-08T10:30:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": "List A Domestic - m",
+        "seriesName": "ICC CWC Challenge League B, 2024-26",
+        "seriesType": "Tournament",
+        "matchType": "List A",
+        "matchNumber": "Match 31",
+        "stage": "League",
+        "teamA": "Tanzania",
+        "teamB": "Uganda"
+    },
+    {
         "Title": "Hong Kong, China v Singapore (1st Innings)",
         "ID": "d908c3f4-c093-4bd0-a16c-b6864e67a16c",
         "Status": "Scheduled",
