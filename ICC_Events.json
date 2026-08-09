@@ -9456,6 +9456,22 @@
         "teamB": "Italy"
     },
     {
+        "Title": "REPLAY Italy v Bahrain (2nd Innings)",
+        "ID": "11ee214b-c956-4536-a4ea-faeb8819d9a8",
+        "Status": "OnDemand",
+        "StartTime": "2026-08-09T09:30:00Z",
+        "untrimmedDuration": 10894.08,
+        "workflow": "LIVE",
+        "competitionType": "List A Domestic - m",
+        "seriesName": "ICC CWC Challenge League B, 2024-26",
+        "seriesType": "Tournament",
+        "matchType": "List A",
+        "matchNumber": "Match 32",
+        "stage": "League",
+        "teamA": "Bahrain",
+        "teamB": "Italy"
+    },
+    {
         "Title": "United Arab Emirates v Scotland (1st Innings)",
         "ID": "3ee6699e-b208-4e60-9389-74f048a23ab5",
         "Status": "Scheduled",
@@ -9502,6 +9518,22 @@
         "stage": "League",
         "teamA": "Bahrain",
         "teamB": "Italy"
+    },
+    {
+        "Title": "United Arab Emirates v Scotland (1st Innings)",
+        "ID": "4198b3b3-ae73-4064-ae1f-d88a3c8a1c97",
+        "Status": "Live",
+        "StartTime": "2026-08-09T12:00:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": "ODI International - m",
+        "seriesName": "ICC CWC League 2, 2023-27",
+        "seriesType": "Tournament",
+        "matchType": "ODI",
+        "matchNumber": "Match 125",
+        "stage": "League",
+        "teamA": "Scotland",
+        "teamB": "United Arab Emirates"
     },
     {
         "Title": "United Arab Emirates v Scotland (2nd Innings)",
