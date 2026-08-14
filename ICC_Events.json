@@ -9808,6 +9808,22 @@
         "teamB": "Spain"
     },
     {
+        "Title": "Spain v Finland (FINNISH)",
+        "ID": "c0cef97d-829e-4217-93a1-86e22a073139",
+        "Status": "Scheduled",
+        "StartTime": "2026-08-14T08:00:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": "T20 International - m",
+        "seriesName": "ICC Men's T20 World Cup Europe Sub Regional Qualifier C, 2026",
+        "seriesType": "Tournament",
+        "matchType": "T20",
+        "matchNumber": "Match 1",
+        "stage": "Group",
+        "teamA": "Finland",
+        "teamB": "Spain"
+    },
+    {
         "Title": "Singapore v Italy (2nd Innings)",
         "ID": "986dabd6-e6bf-4a5e-a4c0-36f2c714097a",
         "Status": "Scheduled",
@@ -9998,6 +10014,22 @@
         "stage": "Group",
         "teamA": "Germany",
         "teamB": "Portugal"
+    },
+    {
+        "Title": "Finland v Bulgaria (FINNISH)",
+        "ID": "344732c7-b4a4-428f-927f-85f466cf2cb1",
+        "Status": "Scheduled",
+        "StartTime": "2026-08-15T13:00:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": "T20 International - m",
+        "seriesName": "ICC Men's T20 World Cup Europe Sub Regional Qualifier C, 2026",
+        "seriesType": "Tournament",
+        "matchType": "T20",
+        "matchNumber": "Match 8",
+        "stage": "Group",
+        "teamA": "Finland",
+        "teamB": "Bulgaria"
     },
     {
         "Title": "Tanzania v Singapore (1st Innings)",
@@ -10192,6 +10224,22 @@
         "teamB": "Greece"
     },
     {
+        "Title": "Finland v Luxembourg (FINNISH)",
+        "ID": "8924949c-e215-4ebf-8776-36261c2e508d",
+        "Status": "Scheduled",
+        "StartTime": "2026-08-18T08:00:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": "T20 International - m",
+        "seriesName": "ICC Men's T20 World Cup Europe Sub Regional Qualifier C, 2026",
+        "seriesType": "Tournament",
+        "matchType": "T20",
+        "matchNumber": "Match 14",
+        "stage": "Group",
+        "teamA": "Finland",
+        "teamB": "Luxembourg"
+    },
+    {
         "Title": "Uganda v Bahrain (2nd Innings)",
         "ID": "f978d8d6-80e9-4072-bbdb-87457a0c893b",
         "Status": "Scheduled",
@@ -10306,6 +10354,22 @@
     {
         "Title": "Isle of Man v Finland",
         "ID": "1bdb092a-6f8d-4895-8891-181636118073",
+        "Status": "Scheduled",
+        "StartTime": "2026-08-20T13:00:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": "T20 International - m",
+        "seriesName": "ICC Men's T20 World Cup Europe Sub Regional Qualifier C, 2026",
+        "seriesType": "Tournament",
+        "matchType": "T20",
+        "matchNumber": "Match 19",
+        "stage": "Group",
+        "teamA": "Finland",
+        "teamB": "Isle of Man"
+    },
+    {
+        "Title": "Isle of Man v Finland (FINNISH)",
+        "ID": "18ff2dcc-f102-479e-a6ee-1fd36546a0aa",
         "Status": "Scheduled",
         "StartTime": "2026-08-20T13:00:00Z",
         "untrimmedDuration": null,
