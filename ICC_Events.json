@@ -10382,5 +10382,37 @@
         "stage": "Group",
         "teamA": "Finland",
         "teamB": "Isle of Man"
+    },
+    {
+        "Title": "Isle of Man v Israel (5th PO)",
+        "ID": "e0b3a7ce-2b32-4c84-ae96-3e985489e761",
+        "Status": "Scheduled",
+        "StartTime": "2026-08-21T13:00:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": "T20 International - m",
+        "seriesName": "ICC Men's T20 World Cup Europe Sub Regional Qualifier C, 2026",
+        "seriesType": "Tournament",
+        "matchType": "T20",
+        "matchNumber": "5th Place Play-off",
+        "stage": "Playoffs",
+        "teamA": "Isle of Man",
+        "teamB": "Israel"
+    },
+    {
+        "Title": "Spain v Portugal (Final)",
+        "ID": "3e44b9b2-ce22-46bf-ae51-72f26fd6a8a3",
+        "Status": "Scheduled",
+        "StartTime": "2026-08-21T13:00:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": "T20 International - m",
+        "seriesName": "ICC Men's T20 World Cup Europe Sub Regional Qualifier C, 2026",
+        "seriesType": "Tournament",
+        "matchType": "T20",
+        "matchNumber": "Final",
+        "stage": "Final",
+        "teamA": "Spain",
+        "teamB": "Portugal"
     }
 ]
