@@ -10606,5 +10606,21 @@
         "stage": null,
         "teamA": null,
         "teamB": null
+    },
+    {
+        "Title": "Zimbabwe v South Africa",
+        "ID": "6ac27684-74f9-4b4f-80da-291bec7b471c",
+        "Status": "Scheduled",
+        "StartTime": "2026-09-06T12:00:00Z",
+        "untrimmedDuration": null,
+        "workflow": "LIVE",
+        "competitionType": "T20 International - m",
+        "seriesName": "T20I Tri-Series in Namibia, 2026",
+        "seriesType": "Tournament",
+        "matchType": "T20",
+        "matchNumber": "Final",
+        "stage": "Final",
+        "teamA": "T.B.C.",
+        "teamB": "T.B.C."
     }
 ]
