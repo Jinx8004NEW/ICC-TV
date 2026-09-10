@@ -512,6 +512,38 @@
         "teamB": "Germany"
     },
     {
+        "Title": "Gibraltar v Serbia | Match Highlights | ICC Men's T20 World Cup Europe Sub Regional Qualifier B",
+        "ID": "5bb962d3-b632-4940-8362-5978d0f0c8f9",
+        "Status": "OnDemand",
+        "StartTime": null,
+        "untrimmedDuration": 934.0,
+        "workflow": "VOD",
+        "competitionType": "T20 International - m",
+        "seriesName": "ICC Men's T20 World Cup Europe Sub Regional Qualifier B, 2026",
+        "seriesType": "Tournament",
+        "matchType": "T20",
+        "matchNumber": "Match 14",
+        "stage": "Group",
+        "teamA": "Gibraltar",
+        "teamB": "Serbia"
+    },
+    {
+        "Title": "Belgium v Romania | Match Highlights | ICC Men's T20 World Cup Europe Sub Regional Qualifier B",
+        "ID": "75922e17-4408-442b-a315-85fa78a22f6e",
+        "Status": "OnDemand",
+        "StartTime": null,
+        "untrimmedDuration": 886.0,
+        "workflow": "VOD",
+        "competitionType": "T20 International - m",
+        "seriesName": "ICC Men's T20 World Cup Europe Sub Regional Qualifier B, 2026",
+        "seriesType": "Tournament",
+        "matchType": "T20",
+        "matchNumber": "Match 12",
+        "stage": "Group",
+        "teamA": "Belgium",
+        "teamB": "Romania"
+    },
+    {
         "Title": "MT20 Scotland v Italy (HINDI)",
         "ID": "e6f2b836-7099-42f9-9d56-caf682f265d1",
         "Status": "Scheduled",
