@@ -10976,6 +10976,22 @@
         "teamB": null
     },
     {
+        "Title": "REPLAY Namibia v USA (2nd Innings)",
+        "ID": "cc8a5102-38fd-4b78-a460-d3e3b5c940f6",
+        "Status": "OnDemand",
+        "StartTime": "2026-10-07T19:00:00Z",
+        "untrimmedDuration": 14446.08,
+        "workflow": "LIVE",
+        "competitionType": "ODI International - m",
+        "seriesName": "ICC CWC League 2, 2023-27",
+        "seriesType": "Tournament",
+        "matchType": "ODI",
+        "matchNumber": "Match 130",
+        "stage": "League",
+        "teamA": "USA",
+        "teamB": "Namibia"
+    },
+    {
         "Title": "Bahrain v Myanmar",
         "ID": "a4bdae18-fe54-4d79-ad24-50580e2c501b",
         "Status": "Scheduled",
