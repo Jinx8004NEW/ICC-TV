@@ -13152,6 +13152,22 @@
         "teamB": "Papua New Guinea"
     },
     {
+        "Title": "REPLAY Qatar v Jersey (1st Innings)",
+        "ID": "aaab44cc-f18c-4879-978b-62b605c2c0b3",
+        "Status": "OnDemand",
+        "StartTime": "2026-10-31T10:40:00Z",
+        "untrimmedDuration": 9722.88,
+        "workflow": "LIVE",
+        "competitionType": "List A Domestic - m",
+        "seriesName": "ICC CWC Challenge League A, 2024-26",
+        "seriesType": "Tournament",
+        "matchType": "List A",
+        "matchNumber": "Match 45",
+        "stage": "League",
+        "teamA": "Qatar",
+        "teamB": "Jersey"
+    },
+    {
         "Title": "5th ODI Namibia vs Ireland (1st Innings)",
         "ID": "4fb8b68e-6065-4ced-9995-74ddb5527f80",
         "Status": "Scheduled",
